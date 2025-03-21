@@ -1,0 +1,59 @@
+/* components/MemberTable.css */
+.member-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .member-table th,
+  .member-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .member-table th {
+    background-color: #f8f9fa;
+    font-weight: 500;
+  }
+  
+  .member-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .edit-button,
+  .delete-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .edit-button {
+    background-color: #ffc107;
+    color: #212529;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #e0a800;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  .icon {
+    margin-right: 3px;
+  }
